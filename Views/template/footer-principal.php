@@ -1,10 +1,10 @@
-<!-- copyright section start -->
+
 <div class="copyright_section">
   <div class="container">
     <p class="copyright_text">© <?php echo date('Y'); ?> <a href="#"></a></p>
   </div>
 </div>
-<!-- copyright section end -->
+
 
 <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">

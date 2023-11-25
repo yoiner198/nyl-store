@@ -58,7 +58,7 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://informatica-programacion.com/">NyL STORE</a></li>
+                        <li><a href="https://www.instagram.com/nylstore08/">NYL STORE</a></li>
                      </ul> 
                   </div>
                </div>

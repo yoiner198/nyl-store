@@ -222,10 +222,10 @@ button {
 .header_section_top {
     width: 100%;
     float: left;
-    background-color: #2b2a29;
+    background-color: #3c3c3c;
     clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
     height: auto;
-    padding: 10px 0px;
+    padding: 10px 0px;  
 }
 
 .custom_menu {
@@ -243,16 +243,16 @@ button {
 .custom_menu li {
     float: left;
     font-size: 16px;
-    color: #f1f1f1;
+    color: #ffffff;
     padding: 6px 10px 0px 10px;
 }
 
 .custom_menu li a {
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .custom_menu li a:hover {
-    color: #f26522;
+    color: #f28a22;
 }
 
 .logo_section {

@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function cambiarProceso(idPedido, proceso) {
     Swal.fire({
-        title: "Aviso?",
+        title: "Aviso",
         text: "Esta seguro de cambiar el estado!",
         icon: "warning",
         showCancelButton: true,
@@ -89,7 +89,7 @@ function cambiarProceso(idPedido, proceso) {
                         tblProceso.ajax.reload();
                         tblFinalizados.ajax.reload();
                     }
-                    Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
+                    Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
                 }
             };
         }

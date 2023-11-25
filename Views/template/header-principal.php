@@ -9,7 +9,7 @@
    
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-   
+   <link rel="icon" type="image/png" href="<?php echo BASE_URL; ?>assets/images/logo.png">
    <title> NYL STORE </title>
    <meta name="keywords" content="">
    <meta name="description" content="">

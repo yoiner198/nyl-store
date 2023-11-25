@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     tblProductos.ajax.reload();
                     document.querySelector("#imagen").value = "";
                 }
-                Swal.fire("Aviso???", res.msg.toUpperCase(), res.icono);
+                Swal.fire("Aviso??", res.msg.toUpperCase(), res.icono);
             }
         };
     });
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     myDropzone.on("complete", function(file) {
         myDropzone.removeFile(file);
-        Swal.fire("Aviso?", 'IMAGENES SUBIDA', 'success');
+        Swal.fire("Aviso", 'IMAGENES SUBIDA', 'success');
         setTimeout(() => {
             modalGaleria.hide();
         }, 1500);
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function eliminarPro(idPro) {
     Swal.fire({
-        title: "Aviso?",
+        title: "Aviso",
         text: "Esta seguro de eliminar el registro!",
         icon: "warning",
         showCancelButton: true,
@@ -98,7 +98,7 @@ function eliminarPro(idPro) {
                     if (res.icono == "success") {
                         tblProductos.ajax.reload();
                     }
-                    Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
+                    Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
                 }
             };
         }
@@ -176,7 +176,7 @@ function eliminar(idPro, nombre) {
         if (this.readyState == 4 && this.status == 200) {
             console.log(this.responseText);
             const res = JSON.parse(this.responseText);
-            Swal.fire("Aviso?", res.msg, res.icono);
+            Swal.fire("Aviso", res.msg, res.icono);
             if (res.icono == 'success') {
                 agregarImagenes(idPro);
             }

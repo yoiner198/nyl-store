@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     myModal.hide();
                     tblCategorias.ajax.reload();
                 }
-                Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
+                Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
             }
         }
     });
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function eliminarCat(idCat) {
     Swal.fire({
-        title: "Aviso?",
+        title: "Aviso",
         text: "Esta seguro de eliminar el registro!",
         icon: "warning",
         showCancelButton: true,
@@ -73,7 +73,7 @@ function eliminarCat(idCat) {
                     if (res.icono == "success") {
                         tblCategorias.ajax.reload();
                     }
-                    Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
+                    Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
                 }
             }
         }

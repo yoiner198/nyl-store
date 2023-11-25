@@ -120,7 +120,7 @@ function registrarPedido(datos) {
         if (this.readyState == 4 && this.status == 200) {
             console.log(this.responseText);
             const res = JSON.parse(this.responseText);
-            Swal.fire("Aviso?", res.msg, res.icono);
+            Swal.fire("Aviso", res.msg, res.icono);
             if (res.icono == 'success') {
                 localStorage.removeItem('listaCarrito');
                 setTimeout(() => {

@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Vida Informático</title>
+   <title>  </title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -58,8 +58,8 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://informatica-programacion.com/">Vida Informático</a></li>
-                     </ul>
+                        <li><a href="https://informatica-programacion.com/">NyL STORE</a></li>
+                     </ul> 
                   </div>
                </div>
             </div>

@@ -2,36 +2,35 @@
 <html lang="en">
 
 <head>
-   <!-- basic -->
+   
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!-- mobile metas -->
+   
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-   <!-- site metas -->
+   
    <title>  </title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
-   <!-- bootstrap css -->
+   
    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/principal/css/bootstrap.min.css">
-   <!-- style css -->
+  
    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/principal/css/style.css">
-   <!-- Responsive-->
+   
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/css/responsive.css">
-   <!-- fevicon -->
+   
    <link rel="icon" href="<?php echo BASE_URL; ?>assets/principal/images/fevicon.png" type="image/gif" />
-   <!-- Scrollbar Custom CSS -->
+   
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/css/jquery.mCustomScrollbar.min.css">
-   <!-- Tweaks for older IEs-->
+   
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   <!-- fonts -->
+   
    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-   <!-- font awesome -->
+   
    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <!--  -->
-   <!-- owl stylesheets -->
+   
    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/css/owl.carousel.min.css">
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/css/owl.theme.default.min.css">
@@ -49,9 +48,9 @@
 </head>
 
 <body>
-   <!-- banner bg main start -->
+
    <div class="banner_bg_main">
-      <!-- header top section start -->
+  
       <div class="container">
          <div class="header_section_top">
             <div class="row">
@@ -65,8 +64,7 @@
             </div>
          </div>
       </div>
-      <!-- header top section start -->
-      <!-- logo section start -->
+
       <div class="logo_section">
          <div class="container">
             <div class="row">
@@ -76,8 +74,7 @@
             </div>
          </div>
       </div>
-      <!-- logo section end -->
-      <!-- header section start -->
+ 
       <div class="header_section">
          <div class="container">
             <div class="containt_main">
@@ -98,7 +95,7 @@
                   </div>
                </div>
                <div class="main">
-                  <!-- Another variation with a button -->
+            
                   <div class="input-group">
                      <input type="text" class="form-control" placeholder="¿Que estas buscando?" id="search">
                      <div class="input-group-append">
@@ -135,4 +132,4 @@
             </div>
          </div>
       </div>
-      <!-- header section end -->
+     

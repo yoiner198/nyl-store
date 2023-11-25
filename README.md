@@ -17,7 +17,10 @@
   https://github.com/yoiner198/nyl-store.git
   ~~~
 
-- Instalar Composer
+- Instalar Composer, descargamos el ejecutable del siguiente link:
+~~~
+https://getcomposer.org/Composer-Setup.exe
+~~~  
 
 - Instalar PHPMailer
 

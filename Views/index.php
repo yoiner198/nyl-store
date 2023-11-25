@@ -16,7 +16,7 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+              <h1 class="banner_taital">Calidad y Estilo <br>GARANTIZADOS!</h1>
               <div class="buynow_bt"><a href="#">COMPRA AHORA</a></div>
             </div>
           </div>

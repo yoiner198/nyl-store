@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     tblProductos.ajax.reload();
                     document.querySelector("#imagen").value = "";
                 }
-                Swal.fire("Aviso??", res.msg.toUpperCase(), res.icono);
+                Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
             }
         };
     });

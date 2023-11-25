@@ -8,8 +8,8 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+              <h1 class="banner_taital">Conoce Nuestros <br>Servicios</h1>
+              <div class="buynow_bt"><a href="#">COMPRA AHORA</a></div>
             </div>
           </div>
         </div>
@@ -17,15 +17,15 @@
           <div class="row">
             <div class="col-sm-12">
               <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+              <div class="buynow_bt"><a href="#">COMPRA AHORA</a></div>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+              <h1 class="banner_taital">Seremos <br>Tu Tienda Favorita!</h1>
+              <div class="buynow_bt"><a href="#">COMPRA AHORA</a></div> 
             </div>
           </div>
         </div>

@@ -58,8 +58,8 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://informatica-programacion.com/">Siguenos</a></li>
-                     </ul>
+                        <li><a href="https://informatica-programacion.com/">NyL STORE</a></li>
+                     </ul> 
                   </div>
                </div>
             </div>

@@ -5,7 +5,7 @@ const USER = "root";
 const PASS = "";
 const DB = "nyl-store";
 const CHARSET = "charset=utf8";
-const TITLE = "TIENDA ONLINEE";
+const TITLE = "NYL STORE";
 const MONEDA = "USD";
 const CLIENT_ID = "AWrxlVm3YzvgAxdjx2uux-xl20NqGupD6mJeo8keiRy-8cpDKBVZY1L66qNwjE7Zx-Vn25tUB47JjYIq";
 

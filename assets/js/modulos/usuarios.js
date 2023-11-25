@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     myModal.hide();
                     tblUsuario.ajax.reload();
                 }
-                Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
+                Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
             }
         }
     });
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function eliminarUser(idUser) {
     Swal.fire({
-        title: "Aviso",
+        title: "Aviso?",
         text: "Esta seguro de eliminar el registro!",
         icon: "warning",
         showCancelButton: true,
@@ -75,7 +75,7 @@ function eliminarUser(idUser) {
                     if (res.icono == "success") {
                         tblUsuario.ajax.reload();
                     }
-                    Swal.fire("Aviso", res.msg.toUpperCase(), res.icono);
+                    Swal.fire("Aviso?", res.msg.toUpperCase(), res.icono);
                 }
             }
         }

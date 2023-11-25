@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
       correoRegistro.value == "" ||
       claveRegistro.value == ""
     ) {
-      Swal.fire("Aviso", "TODO LOS CAMPOS SON REQUERIDOS", "warning");
+      Swal.fire("Aviso?", "TODO LOS CAMPOS SON REQUERIDOS", "warning");
     } else {
       let formData = new FormData();
       formData.append("nombre", nombreRegistro.value);
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       http.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           const res = JSON.parse(this.responseText);
-          Swal.fire("Aviso", res.msg, res.icono);
+          Swal.fire("Aviso?", res.msg, res.icono);
           if (res.icono == "success") {
             setTimeout(() => {
               enviarCorreo(correoRegistro.value, res.token);
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //login directo
   login.addEventListener("click", function () {
     if (correoLogin.value == "" || claveLogin.value == "") {
-      Swal.fire("Aviso", "TODO LOS CAMPOS SON REQUERIDOS", "warning");
+      Swal.fire("Aviso?", "TODO LOS CAMPOS SON REQUERIDOS", "warning");
     } else {
       let formData = new FormData();
       formData.append("correoLogin", correoLogin.value);
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
       http.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           const res = JSON.parse(this.responseText);
-          Swal.fire("Aviso", res.msg, res.icono);
+          Swal.fire("Aviso?", res.msg, res.icono);
           if (res.icono == "success") {
             setTimeout(() => {
               window.location.reload();
@@ -126,7 +126,7 @@ function enviarCorreo(correo, token) {
   http.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       const res = JSON.parse(this.responseText);
-      Swal.fire("Aviso", res.msg, res.icono);
+      Swal.fire("Aviso?", res.msg, res.icono);
       if (res.icono == "success") {
         setTimeout(() => {
           window.location.reload();

@@ -209,8 +209,6 @@ button {
 }
 
 
-/* banner bg main start */
-
 .banner_bg_main {
     width: 100%;
     float: left;
@@ -220,11 +218,6 @@ button {
     background-repeat: no-repeat;
 }
 
-
-/* banner bg main end */
-
-
-/* header top section start */
 
 .header_section_top {
     width: 100%;
@@ -261,12 +254,6 @@ button {
 .custom_menu li a:hover {
     color: #f26522;
 }
-
-
-/* header top section end */
-
-
-/* logo section start */
 
 .logo_section {
     width: 100%;

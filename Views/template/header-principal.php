@@ -57,7 +57,7 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://www.instagram.com/nylstore08/">S</a></li>
+                        <li><a href="https://www.instagram.com/nylstore08/">INSTAGRAM</a></li>
                      </ul> 
                   </div>
                </div>

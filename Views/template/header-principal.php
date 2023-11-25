@@ -57,7 +57,7 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://www.instagram.com/nylstore08/">NYL STORE</a></li>
+                        <li><a href="https://www.instagram.com/nylstore08/">INSTAGRAM</a></li>
                      </ul> 
                   </div>
                </div>
@@ -69,7 +69,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/images/logo.png" width="50"></a></div>
+                  <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/images/logo.png" width="200"></a></div>
                </div>
             </div>
          </div>

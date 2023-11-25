@@ -70,13 +70,13 @@ class Clientes extends Controller
                 $mail->Port       = PUERTO_SMTP;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
-                $mail->setFrom('yoandering@gmail.com', TITLE);
+                $mail->setFrom('tiendanylstore@gmail.com', TITLE);
                 $mail->addAddress($_POST['correo']);
 
                 //Content
                 $mail->isHTML(true);                                  //Set email format to HTML
-                $mail->Subject = 'Mensaje desde la: ' . TITLE;
-                $mail->Body    = 'Para verificar tu correo en nuestra tienda <a href="' . BASE_URL . 'clientes/verificarCorreo/' . $_POST['token'] . '">CLIC AQUÍ</a>';
+                $mail->Subject = 'Mensaje desde la tienda: ' . TITLE;
+                $mail->Body    = 'BIENVENIDO A NUESTRA TIENDA VIRTUAL! Para verificar tu correo en nuestra tienda <a href="' . BASE_URL . 'clientes/verificarCorreo/' . $_POST['token'] . '">CLIC AQUÍ</a>';
                 $mail->AltBody = 'GRACIAS POR LA PREFERENCIA';
 
                 $mail->send();
